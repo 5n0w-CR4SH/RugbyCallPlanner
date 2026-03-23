@@ -14,7 +14,7 @@ window = pyglet.window.Window(width=W, height=H, caption='Rugby Call Planner')
 batch = pyglet.graphics.Batch()
 
 rw, rh = 572, 400 # 1.43:1 ratio for rugby pitch
-rx, ry = W // 2 + rw // 4, H // 2 - rh // 2
+rx, ry = W // 2 - rw // 2, H // 2 - rh // 2
 p_radius = 10 # player radius
 px, py = 0, 0
 
